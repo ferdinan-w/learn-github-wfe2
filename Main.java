@@ -7,4 +7,8 @@ class Main {
     Main myMain = new Main();
     myMain.hello();
   }
+  public static void main(String[] args) {
+	Dog dog = new Dog();
+	dog.play();
+	dog.bark();
 }
